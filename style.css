@@ -1,0 +1,194 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+.container1 {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 200px;
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.heroM {
+    font-size: 48px;
+    font-weight: 1000;
+    color: #f9faf8;
+}
+
+.H-L {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.headtext {
+    color: lightgrey;
+    
+}
+
+/* This is my header section */
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* These are for my header links */
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 24px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* This is my section with my image and button */
+
+.bottom {
+    display: flex;
+    padding: 100px 0;
+    justify-content: space-between;
+}
+
+.left {
+    width: 450px;
+    height: 220px;
+}
+
+button {
+    color: #e5e7eb;
+    background-color: #3882f6;
+    padding: 8px 24px;
+    border-radius: 5px;
+    border-style: none;
+    font-weight: bold;
+}
+
+.right {
+    background-color: grey;
+    width: 550px;
+    height: 250px;
+}
+
+/* This is the css for the information section */
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 200px;
+    text-align: center;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 24px;
+}
+
+.info-header {
+    font-size: 36px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.info-text {
+    color: grey;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #3882f6;
+}
+
+/* This is my quote section */
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 300px;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    margin-bottom: 12px;
+}
+
+.quoted {
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    justify-content: flex-end;
+}
+
+/* This is my call to action section */
+
+.container4 {
+    display: flex;
+    padding: 100px 300px;
+    
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+    flex-grow: 1;
+    padding: 50px 100px;
+}
+
+.bordered-button {
+    border-style: solid;
+    border-color: white;
+    color: white;
+}
+
+.bolded {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.light-grey {
+    color: lightgrey;
+}
+
+.words {
+    color: #f9faf8;
+}
+
+/* This is my footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 32px 0px;
+}
